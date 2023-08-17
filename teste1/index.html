@@ -20,6 +20,9 @@
 <link rel="dns-prefetch" href="https://api.vturb.com.br">
 
 
+<meta name="facebook-domain-verification" content="okcefa471f00qjs1k8h38cei1wv4xv" />
+
+
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MTGLCPM"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-236031977-5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -110,16 +113,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <label><h1>El último día para verte es <b><span id="data">27/1/2023</span></b></h1></label>
 <script>
-				let data = document.getElementById('data');
-				var text = document.createTextNode(RetornaDataHoraAtual());        
-				data.appendChild(text);
+                let data = document.getElementById('data');
+                var text = document.createTextNode(RetornaDataHoraAtual());        
+                data.appendChild(text);
 
-				function RetornaDataHoraAtual(){
-					var dNow = new Date();
-					var localdate = dNow.getDate() + '/' + (dNow.getMonth()+1) + '/' + dNow.getFullYear();
-					return localdate;
-				}
-			</script>
+                function RetornaDataHoraAtual(){
+                    var dNow = new Date();
+                    var localdate = dNow.getDate() + '/' + (dNow.getMonth()+1) + '/' + dNow.getFullYear();
+                    return localdate;
+                }
+            </script>
 
 </div>
 </div>
@@ -161,22 +164,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <script type="text/javascript">    
-				var tmin = 20; //troque o numeral pelos minutos de pitch e ; no final
-				var tseg = 15; //troque o numeral pelos segundos do pitch e ; no final
+                var tmin = 20; //troque o numeral pelos minutos de pitch e ; no final
+                var tseg = 15; //troque o numeral pelos segundos do pitch e ; no final
 
-				// ~ ATENÇÃO!!! NÃO MEXA EM NADA DAQUI PARA BAIXO! ~ //
+                // ~ ATENÇÃO!!! NÃO MEXA EM NADA DAQUI PARA BAIXO! ~ //
 
-				var tpitch = (tmin * 60000) + (tseg * 1000);
-				setTimeout("show()", tpitch);
-				console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
-				function show(){
-					var list = document.getElementsByClassName("ocultar");
-					for (var i = 0; i < list.length; i++) {
-						list[i].style.visibility = "visible";
-						list[i].style.display = "block";
-					}
-				}
-				</script>
+                var tpitch = (tmin * 60000) + (tseg * 1000);
+                setTimeout("show()", tpitch);
+                console.log('pitch em:', tpitch,'ms - totalizando',tmin,'min','e',tseg,'seg'); 
+                function show(){
+                    var list = document.getElementsByClassName("ocultar");
+                    for (var i = 0; i < list.length; i++) {
+                        list[i].style.visibility = "visible";
+                        list[i].style.display = "block";
+                    }
+                }
+                </script>
 <style>.ocultar{display:none;}</style>
 
 <div class="row">
